@@ -2,6 +2,17 @@
 
 Este projeto foi desenvolvido como parte do curso DevQuest baseado no desafio [Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0), com o objetivo de criar uma landing page moderna, utilizando conceitos avançados de HTML e CSS, especialmente Flexbox e técnicas de responsividade.
 
+## 📸 Pré-visualização
+
+### Desktop
+
+![Preview Desktop](./src/design/my_projects.jpg/Macbook-Air-1559x975.png)
+
+### Mobile
+
+![Preview Mobile](./src/design/my_projects.jpg/iPhone-14-Pro-Max-430x985.png)
+
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica e acessível.
