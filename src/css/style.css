@@ -1,0 +1,147 @@
+/* Variables */
+:root {
+    /* Colors */
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+
+    /* Fonts */
+    --Font-title: 'Poppins';
+    --Font-content: 'Open Sans';
+    --Font-weight-poppins-regular: 400;
+    --Font-weight-poppins-semiBold: 600;
+    --Font-weight-openSans-regular: 400;
+}
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--Violet);
+    min-height: 100vh;
+    color: #FFFFFF;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 40px 130px;
+}
+
+header .container-logo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 10%;
+}
+
+header img {
+    width: 215px;
+}
+
+/* Main Styles */
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 45px 40px;
+    margin: 0 135px;
+}
+
+main .container-image {
+    padding-left: 15px;
+}
+
+.container-image img {
+    max-width: 100%;
+}
+
+main .container-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    flex: 2;
+    max-width: 100%;
+}
+
+/* Typography */
+
+h1 {
+    font-family: var(--Font-title);
+    font-weight: var(--Font-weight-poppins-semiBold);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    width: 500px;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: var(--Font-content);
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+/* Button Styles */
+
+button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    font-family: var(--Font-title);
+    font-weight: var(--Font-weight-poppins-regular);
+    font-size: 15px;
+    color: var(--Violet);
+    box-shadow: 5px 5px 10px hsl(258, 34%, 28%);
+    transition: .3s;
+}
+
+button:hover {
+    background-color: var(--Soft-Magenta);
+    color: white;
+}
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+    margin: 0 250px;
+}
+
+footer ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+footer ul li i {
+    color: #FFFFFF;
+}
