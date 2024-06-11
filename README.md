@@ -1,9 +1,6 @@
-```markdown
 # 🌐 PROJETO-HUDDLE-BASE (QUEST HTML + CSS AVANÇADO)
 
-Este projeto foi desenvolvido como parte do curso DevQuest baseado no desafio [Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-
-landing-page-with-a-single-introductory-section-
-B_2Wvxgi0), com o objetivo de criar uma landing page moderna, utilizando conceitos avançados de HTML e CSS, especialmente Flexbox e técnicas de responsividade.
+Este projeto foi desenvolvido como parte do curso DevQuest baseado no desafio [Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0), com o objetivo de criar uma landing page moderna, utilizando conceitos avançados de HTML e CSS, especialmente Flexbox e técnicas de responsividade.
 
 ## 🛠️ Tecnologias Utilizadas
 
